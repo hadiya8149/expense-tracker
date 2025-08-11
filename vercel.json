@@ -2,7 +2,7 @@
     "version": 2,
       "framework": null,
     "functions": {
-        "api/index.php": { "runtime": "now-php@1.0.0" },
+        "api/index.php": { "runtime": "@vercel/php" },
         "api/**/*.ts":   { "runtime": "nodejs20.x"}
     },
     "routes": [{
